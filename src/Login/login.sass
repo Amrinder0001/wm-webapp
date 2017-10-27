@@ -1,0 +1,109 @@
+// Login screen background and column system styling
+.login
+    background-color: #eee
+    width: 100%
+    padding-top: 10% 
+    padding-bottom: 20%
+
+[class*="col-5"]
+    padding: 0
+    height: 23rem
+    
+.login-cards
+    border: 0
+    border-radius: 0
+    padding: 4% 13%
+    height: 100%
+    
+// Login screen left card styling    
+.login-leftcard
+    border-right: 0.05rem solid $brand-green
+
+.login-heading
+    font-size: 1.7rem
+    text-align: left
+    font-weight: bold
+
+.login-field
+    margin: 5% 0% 0% 0%
+    width: 100%
+    font-size: 1rem
+    padding: 3%
+    border: 0.05rem solid $brand-green
+
+.keep-signedin-label
+    font-size: 0.75rem
+    font-weight: normal
+    padding-left: 6.6%
+    width: 100%
+
+.keep-signedin-checkbox
+    margin-right: 4%
+    margin-top: 9%
+    
+.form-check-container
+    margin: 0%
+    padding: 0%
+
+.login-button
+    width: 100%
+    margin-top: 5%
+    background-color: $brand-green
+    font-weight: bold
+    border: none
+    padding: 4% 10%
+    border-radius: 0.5em
+
+// Right card login screen styling.
+
+.create-account-mesg
+    font-size: 0.95rem
+    font-weight: bold
+    height: auto
+    padding-left: 4%
+    padding-right: 4%
+    
+.create-account-btn
+    +login-button-shaping(100%, none, 5% 10%)
+    background-color: black
+    font-weight: bold
+    font-size: 0.75rem
+    margin-top: 1.5rem
+    margin-bottom: 1.5rem
+
+.facebook-login-btn
+    +login-button-shaping(100%, none, 4% 9%)
+    background-color: blue
+    color: white
+    margin-top: 1.5rem
+    
+.google-login-btn
+    +login-button-shaping(100%, none, 4% 9%)
+    background-color: white
+    color: red
+    margin-top: 1.3rem
+    border: 0.05rem solid $brand-green
+
+// Bottom card styling on login screen
+[class*="col-10"]
+    padding: 0
+    text-align: center
+
+.login-bottomcard
+    background-color: $brand-light
+    border: 0
+    border-radius: 0
+    box-shadow: 10px 10px 10px grey
+    height: 5rem
+
+
+.password-forget
+    color: $brand-green
+    font-weight: bold
+    text-decoration: underline
+
+.forgetpass-text
+    font-weight: bold
+    color: #7f8180
+    text-align: center
+    padding: 3%

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>16x16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="4.9035396%" x2="50%" y2="94.5664393%" id="linearGradient-1">
+            <stop stop-color="#F7F7F7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="61.5300132%"></stop>
+            <stop stop-color="#F7F7F7" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Logo-Identity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16x16">
+            <g id="Group">
+                <g id="Oval-6">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <circle stroke="#4A4A4A" stroke-width="0.666666667" cx="8" cy="8" r="7.66666667"></circle>
+                </g>
+                <rect id="Rectangle-6-Copy-6" fill="#39B6ED" opacity="0.502547554" transform="translate(10.916360, 8.296510) scale(-1, 1) rotate(-20.000000) translate(-10.916360, -8.296510) " x="10.0830266" y="4.69650955" width="1.66666667" height="7.2" rx="0.833333333"></rect>
+                <rect id="Rectangle-6-Copy-7" fill="#39B6ED" opacity="0.502547554" transform="translate(8.996360, 8.296510) rotate(-20.000000) translate(-8.996360, -8.296510) " x="8.16302661" y="4.69650955" width="1.66666667" height="7.2" rx="0.833333333"></rect>
+                <path d="M4.32302661,4.69650955 L4.32302661,4.69650955 L4.32302661,4.69650955 C5.2435012,4.69650955 5.98969328,5.44270163 5.98969328,6.36317622 L5.98969328,11.0631762 L5.98969328,11.0631762 C5.98969328,11.5234135 5.61659724,11.8965095 5.15635995,11.8965095 L5.15635995,11.8965095 L5.15635995,11.8965095 C4.69612265,11.8965095 4.32302661,11.5234135 4.32302661,11.0631762 L4.32302661,4.69650955 Z" id="Rectangle-6-Copy-9" fill="#39B6ED" opacity="0.502547554" transform="translate(5.156360, 8.296510) rotate(-20.000000) translate(-5.156360, -8.296510) "></path>
+                <rect id="Rectangle-6-Copy-8" fill="#39B6ED" opacity="0.502547554" transform="translate(7.076360, 8.296510) scale(-1, 1) rotate(-20.000000) translate(-7.076360, -8.296510) " x="6.24302661" y="4.69650955" width="1.66666667" height="7.2" rx="0.833333333"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

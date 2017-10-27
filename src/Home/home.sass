@@ -1,0 +1,58 @@
+[class*="col"]
+    text-align: center
+    
+// Styling everything related to main container block
+.homepage-container
+    width: 100%
+    padding-top: 8%
+    padding-bottom: 40%
+    // TODO: IMAGE NEEDS TO BE CHANGED !!!
+    background-image: url(home.jpeg)
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    .row
+        margin-top: 3%
+        margin-bottom: 8%
+        .col-3
+            padding: 0% 1%
+            .order-link
+                font-size: 20px
+                letter-spacing: 2px
+                font-weight: bold
+                font-family: 'Montserrat'
+                color: $brand-blue
+                border: 0.1rem solid $brand-blue 
+                border-radius: 3em
+                padding: 10% 10%
+                margin-left: 6%
+                text-decoration: none
+                &:hover
+                    border: 0.1rem solid $brand-white
+                    color: $brand-white
+                    background-color: $brand-blue
+                    
+        .zip-code
+            padding: 0% 5%
+
+// Brand Title: "Laundy and Dry Cleaning" Styling
+div.brandPurpose
+    color: $brand-dark-grey
+    font-family: 'Montserrat'
+    font-size: 36px
+    
+
+// Input zip code styling goes here.
+div.container .row .col-3 input.zip-code-form
+    padding-bottom: 12%
+    background-color: transparent
+    text-align: center
+    border-top: 0
+    border-right: 0
+    border-left: 0
+    border-bottom: 0.1rem solid $brand-blue
+    border-radius: 0
+    font-size: 1.5rem
+    &:placeholder
+        font-color: white
